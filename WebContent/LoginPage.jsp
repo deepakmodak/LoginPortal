@@ -13,7 +13,7 @@
     	<script src="bootstrap/js/bootstrap.min.js"></script> 
 		
   </head>
-  <body style="background-color:#111"">
+  <body style="background-color:#111">
       <center >
     	<div class="hero-unit" style="width:400px;">
     	<form class="form-horizontal" action="LoginServlet">

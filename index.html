@@ -3,32 +3,50 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
 
-    <title>Loginportal by deepakmodak</title>
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Login Portal by deepakmodak</title>
   </head>
 
   <body>
+    <a id="forkme_banner" href="https://github.com/deepakmodak/LoginPortal">View on GitHub</a>
+    <div class="shell">
 
-    <header>
-      <div class="container">
-        <h1>Loginportal</h1>
-        <h2>JSP Servlet implementation with Twitter Bootstrap</h2>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Login Portal</h1>
+            <h2>JSP Servlet implementation with Twitter Bootstrap</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-        <section id="downloads">
-          <a href="https://github.com/deepakmodak/LoginPortal/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/deepakmodak/LoginPortal/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/deepakmodak/LoginPortal" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/deepakmodak/LoginPortal/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/deepakmodak/LoginPortal/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-    <div class="container">
+
+      <span class="banner-fix"></span>
+
+
       <section id="main_content">
-        <h2>Welcome to the LoginPortal wiki!</h2>
+        <h2>Welcome to LoginPortal !</h2>
 
 <p>'LoginPortal' is implementation of login procedure in company with proper database integration.
 For demonastration purpose I created it.</p>
@@ -63,8 +81,31 @@ user in the database if exists, retrieve his/her name and location from the data
 
 <p><img src="http://farm9.staticflickr.com/8179/7885923928_c3840fefb7.jpg" alt="Login Page ScreenShot"></p>
       </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/deepakmodak">deepakmodak</a> can be found on <a href="https://github.com/deepakmodak/LoginPortal">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
     </div>
 
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-34417736-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
   </body>
 </html>
